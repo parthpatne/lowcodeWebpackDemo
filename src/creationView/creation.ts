@@ -1,6 +1,5 @@
 
 import * as ActionSDK from "@actionSDK";
-// document.body.textContent = creation("=============jai hanuman ji===========") ;
 ActionSDK.APIs.actionViewDidLoad(true /*success*/);
 
 // Fetching HTML Elements in Variables by ID.
@@ -182,7 +181,6 @@ function submitForm(){
   var surveyTitle =  (<HTMLInputElement>document.getElementById("surveyTitle")).value;
   createQuestionArray();
   sendActioninstance(surveyTitle,questions);
-  console.log("**************Jai hanuman Ji****************");
 }
 
 
