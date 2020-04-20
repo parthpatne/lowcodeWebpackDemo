@@ -20,6 +20,8 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "@microsoft/teams-js": "^1.6.0",
+    "create-sdk": "^1.0.0",
     "kss-action-sdk": "^1.0.4",
     "lodash": "^4.17.15"
   },
