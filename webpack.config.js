@@ -60,6 +60,14 @@ module.exports = {
   },
   resolve: {
     extensions: [ '.tsx', '.ts', '.js' ],
+    alias: {
+                "@actionCommon": path.resolve(__dirname, "../ActionCommon/src"),
+                "@actionSDK": path.resolve(__dirname, "../ActionSDK/src"),
+                // "@actionSDK": path.resolve(__dirname, "node_modules/kss-action-sdk/ActionSDK.js"),
+              
+
+            }
+
   },
    // output: {
    //          path: path.resolve(__dirname, `../../KasWeb/wwwroot/ActionPackages/${props.packageId}/`),
@@ -69,17 +77,28 @@ module.exports = {
     filename: "[name].js",
     path: path.resolve(__dirname, 'output'),
   },
+  // optimization: {
+  //           splitChunks: {
+  //               cacheGroups: {
+  //                   ActionSDK: {
+  //                       test: /ActionSDK[\\/]/,
+  //                       enforce: true,
+  //                       name: 'ActionSDK',
+  //                       chunks: 'all',
+  //                       priority: 0
+  //                   },
+  //               }
+  //           }
+  //   },
    plugins: [
     new CleanWebpackPlugin(),
     // new HtmlWebpackPlugin(),
     new CopyWebpackPlugin([
       {
-        from: 'assets',
-        to: './',
+        from: 'assets'
       },
       {
-        from: 'appManifest.json',
-        to: './',
+        from: 'appManifest.json'
       },
       ]),
    ],
