@@ -181,7 +181,6 @@ function submitForm() {
   var surveyTitle = (<HTMLInputElement>document.getElementById("surveyTitle")).value;
   createQuestionArray();
   sendActioninstance(surveyTitle, questions);
-  console.log("**************Jai hanuman Ji****************");
 }
 
 
