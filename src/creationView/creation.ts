@@ -1,5 +1,9 @@
 
-import * as ActionSDK from "@actionSDK";
+// import * as ActionSDK from "@actionSDK";
+import * as ActionSDK from 'actionSDK2';
+
+// document.body.textContent = creation("=============jai hanuman ji===========") ;
+
 ActionSDK.APIs.actionViewDidLoad(true /*success*/);
 
 // Fetching HTML Elements in Variables by ID.
@@ -11,7 +15,7 @@ let questions: string[] = new Array();
 
 createBody();
 function createBody(){
-
+ 
     root.appendChild(createInputElement("Survey title","surveyTitle"));
     root.appendChild(bodyDiv);
     root.appendChild(footerDiv);
@@ -25,7 +29,7 @@ function createBody(){
 
     var submit = document.createElement("BUTTON");   // Create a <button> element
     submit.innerHTML = "Create Form";  
-    submit.style.float = "right";   
+    submit.style.float ="right"; 
 
     footerDiv.appendChild(linebreak);
     footerDiv.appendChild(addQuestionButton);
@@ -134,12 +138,12 @@ function getActionInstance( title:string,questions:string[]){
    
     let op1: ActionSDK.ActionInstanceColumnOption = {
       id: i+"0",
-      title: choice1,
+      title: choice1
    
     }
     let op2: ActionSDK.ActionInstanceColumnOption = {
       id: i+"1",
-      title: choice1,
+      title: choice1
    
     }
 
@@ -181,6 +185,7 @@ function submitForm(){
   var surveyTitle =  (<HTMLInputElement>document.getElementById("surveyTitle")).value;
   createQuestionArray();
   sendActioninstance(surveyTitle,questions);
+  console.log("**************Jai hanuman Ji****************");
 }
 
 
