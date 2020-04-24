@@ -52,7 +52,7 @@ module.exports = {
         from: 'assets'
       },
       {
-        from: 'appManifest.json'
+        from: 'actionManifest.json'
       },
       ]),
    ],

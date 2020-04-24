@@ -1,7 +1,7 @@
 {
-    "id": "com.microsoft.demoparth19",
-    "name": "demoparth19",
-    "description": "Quiz Description",
+    "id": "com.microsoft.test.sunny",
+    "name": "Test Action Package",
+    "description": "Test Action Package",
     "provider": {
         "name": "Microsoft",
         "websiteUrl": "https://www.microsoft.com/",
@@ -9,22 +9,22 @@
         "termsOfUseUrl": "https://www.microsoft.com/app-tos"
     },
     "icon": "images/appIcon.png",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "views": {
         "CardView": {
             "sourceLocation": "json/cardView.json"
         },
         "LaunchView": {
             "sourceLocation": "html/createView.html",
-            "header": "Create a quiz"
+            "header": "Test Create View"
         },
         "UpdateView": {
             "sourceLocation": "html/updateView.html",
-            "header": "Answer the quiz"
+            "header": "Test Update View"
         },
         "DetailView": {
             "sourceLocation": "html/detailView.html",
-            "header": "Quiz result"
+            "header": "Test Detail View"
         }
     },
     "localizationInfo": {
