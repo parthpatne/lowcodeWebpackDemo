@@ -14,7 +14,7 @@
                         "items": [
                             {
                                 "type": "TextBlock",
-                                "text": "**{userProfiles[instance.creatorId].displayName}** created a Quiz",
+                                "text": "**{userProfiles[instance.creatorId].displayName}** created a Test Action Package",
                                 "size": "small",
                                 "wrap": true
                             },
@@ -84,7 +84,7 @@
             {
                 "$when": "{summary.rowCreatorCount == 0}",
                 "type": "TextBlock",
-                "text": "Be the first one to take the quiz",
+                "text": "Be the first one to respond",
                 "size": "small",
                 "weight": "bolder",
                 "maxLines": 2,
@@ -104,7 +104,7 @@
         ],
         "actions": [
             {
-                "title": "Take Quiz",
+                "title": "Respond",
                 "command": "LaunchActionView",
                 "parameters": {
                     "viewName": "UpdateView"
