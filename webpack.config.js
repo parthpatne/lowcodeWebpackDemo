@@ -6,7 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: {
         "CreateView": "./src/creationView/creation.ts",
-        "responseView": "./src/responseView/response.ts",
+        "ResponseView": "./src/responseView/response.ts",
         "DetailView": "./src/resultView/result.ts",
     },
   devtool: 'inline-source-map',

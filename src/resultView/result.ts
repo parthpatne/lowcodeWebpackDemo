@@ -1,21 +1,87 @@
-// import * as _ from 'lodash';
-// const _ = require("lodash")
 
-//   function component() {
-//     const element = document.createElement('div');
+import * as ActionSDK from 'actionSDK2';
+ActionSDK.APIs.actionViewDidLoad(true /*success*/);
 
-//     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+var root = document.getElementById("root");
+let actionInstance:  ActionSDK.ActionInstance = null;
+let actionSummary : ActionSDK.ActionInstanceSummary = null;
 
-//     return element;
-//   }
+initialize();
 
-//   document.body.appendChild(component());
+function createBody(){
 
-// import '../creationView.html';
-// import '../updateView.html';
+    var title = document.createElement('h3');
+    title.innerHTML = actionInstance.title;
+    root.appendChild(title);
+    createQuestionView();
 
-function result(name:String){
-	return name;
 }
 
-console.log(result("Test Html")) ;
+
+function createQuestionView(){
+
+  var count = 1;
+  actionInstance.columns.forEach((column: ActionSDK.ActionInstanceColumn) => {
+    
+          var qDiv = document.createElement("div");
+
+          var linebreak = document.createElement('br');
+          qDiv.appendChild(linebreak);  
+
+          var questionHeading = document.createElement('h4'); // Heading of For
+          questionHeading.innerHTML = count + "."+ column.title;
+          qDiv.appendChild(questionHeading);      
+
+          column.options.forEach((option:ActionSDK.ActionInstanceColumnOption) => {
+           var optionView = getAggregateOptionView(option.title,option.id,column.id);
+           qDiv.appendChild(optionView);
+           
+          });
+          root.appendChild(qDiv);
+          count++;
+  });
+
+}
+
+function getAggregateOptionView( title,optionId,columnId) {
+
+    var oDiv = document.createElement("div");
+    
+    var optionTitle = document.createElement('h6'); // Heading of For
+    optionTitle.innerHTML = title;
+    oDiv.appendChild(optionTitle);  
+
+    var mDiv = document.createElement("div");
+    mDiv.className = "meter";
+    var spanTag1 = document.createElement('span');
+    spanTag1.style.width = (JSON.parse(actionSummary.aggregates[columnId])[optionId]/actionSummary.rowCount*100)+"%";
+
+    mDiv.appendChild(spanTag1);  
+
+    oDiv.appendChild(mDiv);  
+  
+    var newline = document.createElement('br');
+    oDiv.appendChild(newline);
+    return oDiv;  
+} 
+
+function initialize(){
+
+    ActionSDK.APIs.getCurrentContext()
+    .then((context: ActionSDK.ActionContext) => {   
+      ActionSDK.APIs.getActionInstance(context.actionInstanceId)
+      .then((ai: ActionSDK.ActionInstance) => {
+      actionInstance = ai;
+      ActionSDK.APIs.getActionInstanceSummary(actionInstance.id, false /* isShortSummary */)
+            .then((aggregatedSummary: ActionSDK.ActionInstanceSummary) => {
+              actionSummary = aggregatedSummary;
+                createBody();
+            })
+            .catch((error: ActionSDK.ActionError) => {
+                
+            });
+      })      
+    });
+
+}
+
