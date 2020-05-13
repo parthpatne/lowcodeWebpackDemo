@@ -1,6 +1,6 @@
 {
-    "id": "com.microsoft.test.sunny",
-    "name": "Test Action Package",
+    "id": "com.microsoft.test.parth",
+    "name": "NPM Test Action Package",
     "description": "Test Action Package",
     "provider": {
         "name": "Microsoft",
