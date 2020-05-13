@@ -54,7 +54,9 @@ function getAggregateOptionView( title,optionId,columnId) {
     var mDiv = document.createElement("div");
     mDiv.className = "meter";
     var spanTag1 = document.createElement('span');
-    spanTag1.style.width = (JSON.parse(actionSummary.aggregates[columnId])[optionId]/actionSummary.rowCount*100)+"%";
+
+    var wid = JSON.parse(actionSummary.aggregates[columnId])[optionId]/actionSummary.rowCount*100;
+    spanTag1.style.width =  isNaN(wid) ? "0%": wid + "%";
 
     mDiv.appendChild(spanTag1);  
 
