@@ -10,6 +10,7 @@
     },
     "icon": "images/appIcon.png",
     "version": "1.0.0",
+    "actionModel": "actionModel.json",
     "views": {
         "CardView": {
             "sourceLocation": "json/cardView.json"
@@ -33,4 +34,6 @@
             "en-us": "strings/strings.json"
         }
     }
+    ,"whitelistedUrlDomains":[]
+
 }
