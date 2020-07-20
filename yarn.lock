@@ -234,10 +234,10 @@ acorn@^6.4.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
   integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
-actionsdk2@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/actionsdk2/-/actionsdk2-1.1.7.tgz#a4a760c59226f5817013a8d8fcc4e963cd2f2d12"
-  integrity sha512-oDHo6meuRpLSYrlFHctZ62ceZV7/HvQOTnmwtDfCZN9AIlCc6X8aO6jPRLBCaEe9AXD0oJPhqdVE331+eJkw6g==
+actionsdk2@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/actionsdk2/-/actionsdk2-1.4.0.tgz#868a63a45ef0698472faeaac491466286e47dae0"
+  integrity sha512-5eFQ+r6C5XKwL5JKL8QrKoBHN/NL/8mBTEAbjhpKgasLRy3NBj2bun9vLcGB4tdFnih9UliCTORNOFI2KCyiIQ==
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -1790,10 +1790,10 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.17.19:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 lower-case@^2.0.1:
   version "2.0.1"
