@@ -234,10 +234,10 @@ acorn@^6.4.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
   integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
-actionsdk2@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/actionsdk2/-/actionsdk2-1.1.7.tgz#a4a760c59226f5817013a8d8fcc4e963cd2f2d12"
-  integrity sha512-oDHo6meuRpLSYrlFHctZ62ceZV7/HvQOTnmwtDfCZN9AIlCc6X8aO6jPRLBCaEe9AXD0oJPhqdVE331+eJkw6g==
+actionsdk2@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/actionsdk2/-/actionsdk2-1.4.0.tgz#868a63a45ef0698472faeaac491466286e47dae0"
+  integrity sha512-5eFQ+r6C5XKwL5JKL8QrKoBHN/NL/8mBTEAbjhpKgasLRy3NBj2bun9vLcGB4tdFnih9UliCTORNOFI2KCyiIQ==
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -3103,9 +3103,9 @@ xtend@^4.0.0, xtend@~4.0.1:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yallist@^3.0.2:
   version "3.1.1"
