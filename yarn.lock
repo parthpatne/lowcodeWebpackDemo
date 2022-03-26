@@ -234,10 +234,10 @@ acorn@^6.4.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
   integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
-actionsdk2@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/actionsdk2/-/actionsdk2-1.1.7.tgz#a4a760c59226f5817013a8d8fcc4e963cd2f2d12"
-  integrity sha512-oDHo6meuRpLSYrlFHctZ62ceZV7/HvQOTnmwtDfCZN9AIlCc6X8aO6jPRLBCaEe9AXD0oJPhqdVE331+eJkw6g==
+actionsdk2@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/actionsdk2/-/actionsdk2-1.4.0.tgz#868a63a45ef0698472faeaac491466286e47dae0"
+  integrity sha512-5eFQ+r6C5XKwL5JKL8QrKoBHN/NL/8mBTEAbjhpKgasLRy3NBj2bun9vLcGB4tdFnih9UliCTORNOFI2KCyiIQ==
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -1928,9 +1928,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 mississippi@^3.0.0:
   version "3.0.0"
