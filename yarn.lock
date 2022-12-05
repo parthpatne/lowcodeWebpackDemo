@@ -234,10 +234,10 @@ acorn@^6.4.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
   integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
-actionsdk2@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/actionsdk2/-/actionsdk2-1.1.7.tgz#a4a760c59226f5817013a8d8fcc4e963cd2f2d12"
-  integrity sha512-oDHo6meuRpLSYrlFHctZ62ceZV7/HvQOTnmwtDfCZN9AIlCc6X8aO6jPRLBCaEe9AXD0oJPhqdVE331+eJkw6g==
+actionsdk2@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/actionsdk2/-/actionsdk2-1.4.0.tgz#868a63a45ef0698472faeaac491466286e47dae0"
+  integrity sha512-5eFQ+r6C5XKwL5JKL8QrKoBHN/NL/8mBTEAbjhpKgasLRy3NBj2bun9vLcGB4tdFnih9UliCTORNOFI2KCyiIQ==
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -835,9 +835,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 define-property@^0.2.5:
   version "0.2.5"
